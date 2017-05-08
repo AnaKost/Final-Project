@@ -2688,6 +2688,9 @@
 						}
 
 	}
-cartillage{
+#cartilage{
     width: 60%;
+}
+#gauges{
+    width: 60%
 }

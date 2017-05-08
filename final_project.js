@@ -4,7 +4,7 @@ var namespace = "http://www.w3.org/2000/svg"
 var bug= makeImage("http://rogerbaxter.com/JapaneseBeetle/Beetle_Page_3_files/Beetle_Colorized.gif",220,30,60,60)
 var moveamt = 1
 function moveBug(){
-    
+    var x 
 }
 // DO NOT EDIT CODE BELOW THIS LINE!
 function getX(shape) {

@@ -1,10 +1,16 @@
 var namespace = "http://www.w3.org/2000/svg"
 
 // Write your code here!
-var bug= makeImage("http://rogerbaxter.com/JapaneseBeetle/Beetle_Page_3_files/Beetle_Colorized.gif",220,30,60,60)
-var moveamt = 1
+var Bug= makeImage("http://rogerbaxter.com/JapaneseBeetle/Beetle_Page_3_files/Beetle_Colorized.gif",220,30,60,60)
+var moveAmt = 1
 function moveBug(){
-    var x 
+    var x= getX(Bug)
+    if(moveAmt > 0 && x > 280){
+        moveAmt=-1
+    }else if(moveAmt < 0 && x < 0){
+}
+    move(Bug,moveAmt,0)
+    requestAnimationFrame(moveBug)
 }
 // DO NOT EDIT CODE BELOW THIS LINE!
 function getX(shape) {

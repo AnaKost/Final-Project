@@ -5,13 +5,16 @@ var Bug= makeImage("http://rogerbaxter.com/JapaneseBeetle/Beetle_Page_3_files/Be
 var moveAmt = 1
 function moveBug(){
     var x= getX(Bug)
-    if(moveAmt > 0 && x > 280){
+    if(moveAmt > 0 && x >350){
         moveAmt=-1
     }else if(moveAmt < 0 && x < 0){
+        moveAmt=1
 }
     move(Bug,moveAmt,0)
     requestAnimationFrame(moveBug)
 }
+
+moveBug()
 // DO NOT EDIT CODE BELOW THIS LINE!
 function getX(shape) {
   if (!shape) {

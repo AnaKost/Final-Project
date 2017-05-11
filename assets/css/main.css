@@ -2690,13 +2690,26 @@
 	}
 #cartilage{
     width: 60%;
+    height:60%;
 }
 #gauges{
-    width: 60%
+    width: 60%;
+    height: 60%;
 }
 #stud{
     width:60%;
+    height: 60%;
 }
 #woodGauge{
     width:60%;
+    height: 60%;
+}
+#cactus{
+    width:100%;
+    position: absolute;
+    clip: rect(0px,1100px,200px,0px);
+}
+#industrial{
+width:60%;
+    height: 60%;
 }
